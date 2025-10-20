@@ -23,8 +23,8 @@ color_ama(autoreset=True)
 os.system('cls' if os.name=='nt' else 'clear')
 
 # Get your own values from my.telegram.org
-api_id = 800812
-api_hash = 'db55ad67a98df35667ca788b97f771f5'
+api_id = 24245556
+api_hash = 'aacaf8b9b624c074b117c9653626fb2d'
 
 option = ["Dogecoin_click_bot", "Litecoin_click_bot", "BCH_clickbot", "Zcash_click_bot", "Bitcoinclick_bot"] #Bot option list
 
