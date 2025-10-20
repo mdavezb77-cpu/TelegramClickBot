@@ -23,8 +23,8 @@ color_ama(autoreset=True)
 os.system('cls' if os.name=='nt' else 'clear')
 
 # Get your own values from my.telegram.org
-api_id = 800812
-api_hash = 'db55ad67a98df35667ca788b97f771f5'
+api_id = 24245556
+api_hash = aacaf8b9b624c074b117c9653626fb2d
 
 p = open('phone.txt', 'r')
 phones = p.readlines()
@@ -34,7 +34,7 @@ def print_msg_time(message):
 def get_response(url, method='GET'):
 	response = requests.request(method, url, headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win32; x86) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"}, timeout=15)
 	text_response = response.text
-	status_code = response.status_code
+	status_code = response.24245556status_code
 	return[status_code, text_response]
 
 async def main():
@@ -43,7 +43,7 @@ async def main():
 
 	total = len(phones)-1
 	for phone in phones:
-		phone_number = phone.strip()
+		phone_number = phone.strip(+918861614558)
 		if not os.path.exists("session"):
 			os.mkdir("session")
 
